@@ -1,13 +1,37 @@
 {
   "name": "react-formesh",
-  "version": "0.1.4",
-  "description": "Framework-agnostic, fine-grained form state for complex multi-section forms.",
+  "version": "0.1.5",
+  "description": "Fine-grained form state management for complex React forms, with a framework-agnostic core and React bindings.",
   "license": "Apache-2.0",
+  "author": "Mehedi Hasan Sagor",
   "type": "module",
   "sideEffects": false,
-  "files": [
-    "dist"
+  "homepage": "https://github.com/mhasansagor/react-formesh#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhasansagor/react-formesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhasansagor/react-formesh/issues"
+  },
+  "keywords": [
+    "react",
+    "react-form",
+    "form-state",
+    "form-management",
+    "typescript",
+    "forms",
+    "form-validation",
+    "complex-forms"
   ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
